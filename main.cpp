@@ -2,8 +2,8 @@
 
 int main()
 {
-std::cout << "My name is: ";	
-std::cout << "Gustaff";
-std::cout << "Hello" << endl;
+std::cout << "Enter yout name: ";
+std::cin >> name;
+std::cout << "Hello" << name << endl;
 return 0;
 }
